@@ -1,0 +1,138 @@
+/* body{
+    background-color: aquamarine;
+
+} */
+
+html body{
+    display: inline-block;
+    width: 1440px;
+    height: 1024px;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+header{
+    height: 0;
+}
+main{
+    background-color: #F3F5FC;
+    border-radius: 25px;
+    height: 1024px;    
+}
+header img{
+    margin: 40px 0 0 84px;    
+}
+main .texto{
+    position: absolute;
+}
+#idTexto{
+    width: 680px;
+    height: 288px;
+    border: none;
+    margin: 100px 0 0 240px;
+    border-radius: 25px;
+    padding: 15px 15px 0 15px;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #F3F5FC;
+    color: grey;
+}
+main .borda{
+    position: absolute;
+    margin: 40px 0 0 1000px;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 944px;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0px 28px 28px -5px rgba(143, 142, 142, 0.411);
+}
+#areaCodficador{
+    width: 336px;
+    height: 781px;
+    display: block;
+    margin: 32px 0 0 32px;
+    padding: 15px 0 15px 0 ;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 24px;
+}
+#areaCodficador::placeholder{
+    content: url(Highqualityproducts11.png);
+    opacity: 80%;
+    padding: 50px 0 0 0;
+}
+#copiar{
+    position: relative;
+    width: 336px;
+    font-weight: bold;
+    padding: 24px;
+    margin: 16px 0 0 32px;
+    font-size: 16px;
+    border-radius: 24px;
+    color: #0A3871;
+    background-color: #FFFFFF;
+    border: 1px solid #0A3871;
+}
+#copiar:hover{
+    transition: 0.4s;
+    background-color: #0A3871;
+    color: #D8DFE8;
+    border: 1px solid #0A3871;   
+}
+#criptografar{
+    position: absolute;
+    width: 336px;
+    font-weight: bold;
+    padding: 24px;
+    margin: 901px 0 0 240px;
+    font-size: 16px;
+    border-radius: 24px;
+    color: #FFFFFF;
+    background-color: #0A3871;
+}
+#criptografar:hover{
+    transition: 0.4s;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+#descriptografar{
+    position: absolute;
+    width: 336px;
+    font-weight: bold;
+    padding: 24px;
+    margin: 901px 0 0 592px;
+    font-size: 16px;
+    border-radius: 24px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+}
+#descriptografar:hover{
+    transition: 0.4s;
+    background-color: #0A3871;
+    color: #D8DFE8;
+    border: 1px solid #0A3871;
+}
+.obs{
+    position: absolute;
+    margin: 868px 0 0 240px;
+    color: white;
+    background-color:grey ;
+
+    width: 21px;
+    height: 21px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+}
+.info{
+    position: absolute;
+    margin: 870px 0 0 267px;
+    font-size: 20px;
+    color: grey;
+}
